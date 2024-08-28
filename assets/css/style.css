@@ -1,0 +1,43 @@
+
+
+body {
+  overflow: hidden;
+  font-size: 62.5%;
+  background: #12345e;
+  font-family: "PT Mono", monospace;
+  color: aliceblue;
+}
+
+main {
+  height: 100vh;
+  overflow: hidden;
+}
+
+.section {
+  height: 100%;
+  transition: transform 0.5s ease-out;
+}
+.section3 {
+  background-color: #fff;
+}
+.section4 {
+  background-color: rgba(204, 204, 204, 0.8);
+}
+
+section {
+  transition: transform 0.5s ease-in-out;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100vh;
+  opacity: 0;
+
+}
+img{
+  width: 100%;
+  height: 100%;
+  object-position: bottom;
+  object-fit: cover;
+}
+
+/*# sourceMappingURL=style.css.map */
